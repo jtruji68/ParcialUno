@@ -1,4 +1,7 @@
-package com.juanortiz.entity;
+package com.Parcial.entity;
+
+import com.Parcial.entity.Color;
+import com.Parcial.entity.Vehiculo;
 
 public class Yate extends Vehiculo{
 
@@ -15,5 +18,12 @@ public class Yate extends Vehiculo{
     public Yate(String referencia, Color color, float velocidadMaxima, float maxPeso) {
         super(referencia, color, velocidadMaxima);
         this.maxPeso = maxPeso;
+    }
+
+    @Override
+    public String toString() {
+        return "Yate{" +
+                "maxPeso=" + maxPeso +
+                '}';
     }
 }

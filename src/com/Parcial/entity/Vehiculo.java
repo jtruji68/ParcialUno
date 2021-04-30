@@ -1,4 +1,4 @@
-package com.juanortiz.entity;
+package com.Parcial.entity;
 
 public class Vehiculo {
 
@@ -37,5 +37,12 @@ public class Vehiculo {
         this.velocidadMaxima = velocidadMaxima;
     }
 
-
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "referencia='" + referencia + '\'' +
+                ", color=" + color +
+                ", velocidadMaxima=" + velocidadMaxima +
+                '}';
+    }
 }

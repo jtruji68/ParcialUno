@@ -1,6 +1,9 @@
-package com.juanortiz.entity;
+package com.Parcial.entity;
 
-public class Carro extends Vehiculo{
+import com.Parcial.entity.Color;
+import com.Parcial.entity.Vehiculo;
+
+public class Carro extends Vehiculo {
 
     private int numeroPuertas;
 
@@ -15,5 +18,12 @@ public class Carro extends Vehiculo{
     public Carro(String referencia, Color color, float velocidadMaxima, int numeroPuertas) {
         super(referencia, color, velocidadMaxima);
         this.numeroPuertas = numeroPuertas;
+    }
+
+    @Override
+    public String toString() {
+        return "Carro{" +
+                "numeroPuertas=" + numeroPuertas +
+                '}';
     }
 }

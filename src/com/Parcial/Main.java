@@ -1,7 +1,6 @@
-package com.juanortiz;
+package com.Parcial;
 
-import com.juanortiz.business.VehiculoManager;
-import com.juanortiz.entity.Vehiculo;
+import com.Parcial.business.VehiculoManager;
 
 public class Main {
 

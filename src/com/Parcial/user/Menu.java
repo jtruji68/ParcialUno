@@ -1,9 +1,8 @@
-package com.juanortiz.user;
+package com.Parcial.user;
 
-import com.juanortiz.business.VehiculoManager;
-import com.juanortiz.entity.Avion;
-import com.juanortiz.entity.Color;
-import com.juanortiz.entity.Vehiculo;
+import com.Parcial.business.VehiculoManager;
+import com.Parcial.entity.Color;
+import com.Parcial.entity.Vehiculo;
 
 import java.util.List;
 
